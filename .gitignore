@@ -1,0 +1,33 @@
+# Ignore system files
+__pycache__/
+*.py[cod]
+*.DS_Store
+
+# Ignore data files
+data/
+*.csv
+*.json
+
+# Ignore Colab notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files and logs
+*.h5
+*.hdf5
+*.pb
+*.pth
+*.pt
+*.onnx
+*.joblib
+*.pkl
+*.ckpt
+
+# Ignore virtual environment and Python dependencies
+venv/
+.env
+*.egg-info/
+*.dist-info/
+
+# Ignore Colab-specific cache and credential files
+*.config/
+credentials/
